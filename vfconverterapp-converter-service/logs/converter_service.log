@@ -1,0 +1,59 @@
+2022-11-21 08:51:32,930 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-21 08:56:32,953 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-21 08:59:47,483 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(38)-127.0.0.1] Application shutdown requested.
+2022-11-21 08:59:47,486 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(38)-127.0.0.1] Unregistering application CONVERTER-SERVICE with eureka with status DOWN
+2022-11-21 08:59:47,488 INFO com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(38)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1669001387488, current=DOWN, previous=UP]
+2022-11-21 08:59:47,489 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_CONVERTER-SERVICE/host.docker.internal:CONVERTER-SERVICE:8081: registering service...
+2022-11-21 08:59:47,503 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_CONVERTER-SERVICE/host.docker.internal:CONVERTER-SERVICE:8081 - registration status: 204
+2022-11-21 08:59:47,514 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(38)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8081"]
+2022-11-21 08:59:47,515 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(38)-127.0.0.1] Stopping service [Tomcat]
+2022-11-21 08:59:47,519 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(38)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-21 08:59:47,529 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(38)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8081"]
+2022-11-21 08:59:47,533 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(38)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8081"]
+2022-11-21 08:59:47,546 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(38)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-11-21 08:59:50,550 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(38)-127.0.0.1] Unregistering ...
+2022-11-21 08:59:50,556 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(38)-127.0.0.1] DiscoveryClient_CONVERTER-SERVICE/host.docker.internal:CONVERTER-SERVICE:8081 - deregister  status: 200
+2022-11-21 08:59:50,567 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(38)-127.0.0.1] Completed shut down of DiscoveryClient
+2022-11-21 09:00:13,528 INFO org.springframework.boot.StartupInfoLogger [main] Starting VfconverterappConverterServiceApplication using Java 17.0.4.1 on Sivakumar with PID 24760 (C:\Users\SivakumarK\git\FFMPEGrepository\vfconverterapp-converter-service\target\classes started by SivakumarK in C:\Users\SivakumarK\git\FFMPEGrepository\vfconverterapp-converter-service)
+2022-11-21 09:00:13,534 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.13, Spring v5.3.23
+2022-11-21 09:00:13,535 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-21 09:00:13,811 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2022-11-21 09:00:13,811 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=CONVERTER-SERVICE, profiles=[default], label=null, version=65ca09cb45526e8c3d383e8b0483e2facee8e9bc, state=null
+2022-11-21 09:00:17,948 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=e559c001-b7fd-3dc9-93e2-1a86d44fd3f4
+2022-11-21 09:00:18,938 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2022-11-21 09:00:18,959 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2022-11-21 09:00:18,960 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-21 09:00:18,960 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-21 09:00:19,374 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-21 09:00:19,374 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5559 ms
+2022-11-21 09:00:21,600 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-11-21 09:00:21,691 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-11-21 09:00:21,700 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-11-21 09:00:21,791 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-11-21 09:00:21,853 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-11-21 09:00:21,863 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-11-21 09:00:21,904 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-11-21 09:00:21,905 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-11-21 09:00:21,906 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-11-21 09:00:21,906 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-11-21 09:00:21,906 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-11-21 09:00:21,907 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-11-21 09:00:21,909 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-11-21 09:00:22,396 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-11-21 09:00:22,401 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-11-21 09:00:22,406 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-11-21 09:00:22,425 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1669001422424 with initial instances count: 1
+2022-11-21 09:00:22,427 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application CONVERTER-SERVICE with eureka with status UP
+2022-11-21 09:00:22,428 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1669001422428, current=UP, previous=STARTING]
+2022-11-21 09:00:22,432 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_CONVERTER-SERVICE/Sivakumar:CONVERTER-SERVICE:8081: registering service...
+2022-11-21 09:00:22,434 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2022-11-21 09:00:22,472 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2022-11-21 09:00:22,473 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8081
+2022-11-21 09:00:22,494 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_CONVERTER-SERVICE/Sivakumar:CONVERTER-SERVICE:8081 - registration status: 204
+2022-11-21 09:00:22,684 INFO org.springframework.boot.StartupInfoLogger [main] Started VfconverterappConverterServiceApplication in 24.155 seconds (JVM running for 28.175)
+2022-11-21 09:00:24,098 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(7)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-21 09:00:24,099 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(7)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-11-21 09:00:24,101 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(7)-127.0.0.1] Completed initialization in 2 ms
+2022-11-21 09:05:19,770 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-21 09:10:19,784 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-21 09:15:19,786 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
